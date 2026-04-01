@@ -3,7 +3,7 @@ from groq import Groq
 import streamlit.components.v1 as components
 
 # --- INITIALIZATION ---
-st.set_page_config(page_title="Code Change Analyzer", layout="centered") # centered/wide
+st.set_page_config(page_title="Code Change Analyzer", layout="wide") # centered/wide
 
 # Get your API key from https://console.groq.com/keys
 
